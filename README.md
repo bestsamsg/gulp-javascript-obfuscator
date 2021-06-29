@@ -1,4 +1,4 @@
-# gulp-javascript-obfuscator
+# gulp-javascript-obfuscator-patch
 
 Gulp plugin for [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)
 
@@ -7,14 +7,14 @@ Gulp plugin for [javascript-obfuscator](https://github.com/javascript-obfuscator
 Install the package with npm:
 
 ```bash
-$ npm install --save gulp-javascript-obfuscator
+$ npm install --save gulp-javascript-obfuscator-patch
 ```
 
 ## Usage
 
 ```javascript
 const gulp = require('gulp');
-const javascriptObfuscator = require('gulp-javascript-obfuscator');
+const javascriptObfuscator = require('gulp-javascript-obfuscator-patch');
 
 gulp.src('file.js')
     .pipe(javascriptObfuscator())
